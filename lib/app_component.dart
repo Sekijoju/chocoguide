@@ -4,6 +4,7 @@
 import 'package:angular2/angular2.dart';
 import 'package:angular_components/angular_components.dart';
 
+import 'src/dungeon/dungeon_component.dart';
 import 'src/mynav/mynav.dart';
 import 'src/todo_list/todo_list_component.dart';
 
@@ -15,7 +16,7 @@ import 'src/todo_list/todo_list_component.dart';
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [materialDirectives, TodoListComponent,CORE_DIRECTIVES,MyNavigation],
+  directives: const [materialDirectives, TodoListComponent,CORE_DIRECTIVES,MyNavigation,MyDungeon],
   providers: const [materialProviders],
 )
 class AppComponent {

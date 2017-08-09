@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        <ng-container *ngFor="let dun of dungeons;let i = index">
+            <li *ngIf="dun.c > 0">
+                <span>{{dun.name}}</span>
+            </li>
+        </ng-container>
+    </ul>
+</div>
